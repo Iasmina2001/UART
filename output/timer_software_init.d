@@ -1,0 +1,10 @@
+.\output\timer_software_init.o: code\utils\timer_software_init.c
+.\output\timer_software_init.o: code\utils\timer_software_init.h
+.\output\timer_software_init.o: code\utils\timer_software.h
+.\output\timer_software_init.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\timer_software_init.o: C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\LPC177x_8x.h
+.\output\timer_software_init.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\output\timer_software_init.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\output\timer_software_init.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\output\timer_software_init.o: C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\system_LPC177x_8x.h
+.\output\timer_software_init.o: .\code\system_LPC177x_8x.h

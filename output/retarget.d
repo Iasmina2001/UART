@@ -1,0 +1,10 @@
+.\output\retarget.o: code\Retarget.c
+.\output\retarget.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\retarget.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rt_misc.h
+.\output\retarget.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\retarget.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\retarget.o: .\code\DRV\drv_general.h
+.\output\retarget.o: .\code\DRV\drv_uart.h
+.\output\retarget.o: .\code\utils/ringbuf.h
+.\output\retarget.o: .\code\utils/timer_software.h
+.\output\retarget.o: code\retarget.h

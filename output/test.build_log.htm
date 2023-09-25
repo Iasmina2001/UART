@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: a a, a, LIC=CZLRA-1YVLP-LPNZV-PIZVG-RV7YB-IN1E8
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DARMP1.DLL V1.27.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.36.0
+Dialog DLL:      TARMP1.DLL V1.26.0.0
+ 
+<h2>Project:</h2>
+C:\Users\dspuser\Desktop\I_O_5\TD assignment 4 final\lpc_test_1\test.uvproj
+Project File Date:  11/17/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+code\main.c(87): warning:  #188-D: enumerated type mixed with another type
+  	LCD_pressed = true;
+code\main.c(154): warning:  #177-D: variable "handler"  was declared but never referenced
+  	timer_software_handler_t handler;
+code\main.c(236): warning:  #177-D: variable "index_f"  was declared but never referenced
+  	int index_f = 0;
+code\main.c(238): warning:  #177-D: variable "float_num"  was declared but never referenced
+  	char float_num[4];
+code\main.c(447): warning:  #128-D: loop is not reachable
+  	while(1)
+code\main.c(463): warning:  #128-D: loop is not reachable
+  	while(1)
+code\main.c(469): warning:  #111-D: statement is unreachable
+  	return 0; 
+code\main.c(298): warning:  #177-D: variable "cops_vodafone_string"  was declared but never referenced
+  	char cops_vodafone_string[50] = "+COPS: 0,0,”Vodafone RO”,2";
+code\main.c(300): warning:  #177-D: variable "handler"  was declared but never referenced
+  	timer_software_handler_t handler; // declare a software timer handler
+code\main.c: 9 warnings, 0 errors
+linking...
+Program Size: Code=20668 RO-data=16624 RW-data=476 ZI-data=539820  
+".\output\test.axf" - 0 Error(s), 9 Warning(s).
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
